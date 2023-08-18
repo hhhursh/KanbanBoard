@@ -1,0 +1,36 @@
+.ticket{
+    display:flex;
+    width: 200px;
+    height: 150px;
+    flex-direction: column;
+    justify-content:  space-evenly;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: .8rem;
+}
+
+.ticket-id {
+    margin-bottom: 0.25rem;
+    margin:0.4rem;
+    font-size: 0.6rem;
+
+    align-self: self-start;
+    line-height: 1rem;
+    color: #88898a;  
+  }
+
+.title{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: 600;
+}
+
+.req{
+    margin-left:.6rem;
+    font-size: .5rem;
+    border-radius: 5px;
+    border: none;
+}
+  
